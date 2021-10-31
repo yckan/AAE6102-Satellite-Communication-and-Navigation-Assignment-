@@ -1,6 +1,11 @@
 # AAE6102-Satellite-Communication-and-Navigation-Assignment-
 A Matlab Script to estimate user position and clock bias using gps ephemeris and receiver data.
 
+Steps to run the script.
+1. Change the path of eph.dat and rcvr.dat in AAE6102_Assignment_main.m
+2. Run AAE6102_Assignment_main.m
+3. x_u outputs the estiamted user positions and clock bias based on the inputted eph.dat and rcvr.dat files.
+
 This Matlab script consists of 3 MATLAB function script and 1 main script.
 1. AAE6102_Assignment_main.m <-- Run to calculate the estimated user position and clock bias
 2. solve_SV_pos.m <-- A script to calculate Satellite position in ECEF based on the provided ephemeris
