@@ -2,7 +2,7 @@
 A Matlab Script to estimate user position and clock bias using gps ephemeris and receiver data.
 
 This Matlab script consists of 3 MATLAB function script and 1 main script.
-1. AAE6102_Assignment_main.m <-- Run to output the estimated user position and clock bias
+1. AAE6102_Assignment_main.m <-- Run to calculate the estimated user position and clock bias
 2. solve_SV_pos.m <-- A script to calculate Satellite position in ECEF based on the provided ephemeris
 3. solve_SV_clock error.m <-- compute satellite clock error based on provided ephemeris af0, af1, af2, toc, and the relativistic effects.
 4. solve_x_user_LS.m <-- estimated user position and clock bias by least square method
